@@ -1,0 +1,21 @@
+{
+    "name": "oooo5435tg/package",
+    "description": "package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "oooO5435tg",
+            "email": "morlean@inbox.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "package\\": "Middlewares/"
+        }
+    }
+}
